@@ -1,11 +1,11 @@
 PODS:
-  - FBAEMKit (12.0.2):
-    - FBSDKCoreKit_Basics (= 12.0.2)
-  - FBAudienceNetwork (6.9.0)
-  - FBSDKCoreKit (12.0.2):
-    - FBAEMKit (= 12.0.2)
-    - FBSDKCoreKit_Basics (= 12.0.2)
-  - FBSDKCoreKit_Basics (12.0.2)
+  - FBAEMKit (17.4.0):
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBAudienceNetwork (6.16.0)
+  - FBSDKCoreKit (17.4.0):
+    - FBAEMKit (= 17.4.0)
+    - FBSDKCoreKit_Basics (= 17.4.0)
+  - FBSDKCoreKit_Basics (17.4.0)
   - Flutter (1.0.0)
   - flutter_meta_sdk (1.0.0):
     - FBAudienceNetwork
@@ -30,13 +30,13 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_meta_sdk/ios"
 
 SPEC CHECKSUMS:
-  FBAEMKit: c6b8ddf8371640fcd1a3b844d0f8884c8f334cea
-  FBAudienceNetwork: 83096d73433759c10f9cf9b3bad5e5cff58694cb
-  FBSDKCoreKit: 506c0fd1c09a3075f62be8fa36bdd921c563daa9
-  FBSDKCoreKit_Basics: c0701d1634c944d60dd3c6361d66dbd0e707a456
-  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
-  flutter_meta_sdk: 4b8a7c8df465323f82c1d096144d3c0ba012077b
+  FBAEMKit: 58cb5f302cdd715a56d4c1d0dfdd2e423ac1421a
+  FBAudienceNetwork: d1670939884e3a2e0ad98dca98d7e0c841417228
+  FBSDKCoreKit: 94d7461d0cecf441b1ba7c41acfff41daa8ccd41
+  FBSDKCoreKit_Basics: 151b43db8b834d3f0e02f95d36a44ffd36265e45
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_meta_sdk: f678e258d0ecb44eebc07caa0fc2272eef931f45
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.15.2
