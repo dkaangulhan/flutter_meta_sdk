@@ -1,11 +1,21 @@
 PODS:
-  - FBAEMKit (17.4.0):
-    - FBSDKCoreKit_Basics (= 17.4.0)
   - FBAudienceNetwork (6.16.0)
-  - FBSDKCoreKit (17.4.0):
-    - FBAEMKit (= 17.4.0)
-    - FBSDKCoreKit_Basics (= 17.4.0)
-  - FBSDKCoreKit_Basics (17.4.0)
+  - FBSDKCoreKit (8.0.0):
+    - FBSDKCoreKit/Basics (= 8.0.0)
+    - FBSDKCoreKit/Core (= 8.0.0)
+  - FBSDKCoreKit/Basics (8.0.0)
+  - FBSDKCoreKit/Core (8.0.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKGamingServicesKit (8.0.0):
+    - FBSDKShareKit (~> 8.0.0)
+  - FBSDKLoginKit (8.0.0):
+    - FBSDKLoginKit/Login (= 8.0.0)
+  - FBSDKLoginKit/Login (8.0.0):
+    - FBSDKCoreKit (~> 8.0.0)
+  - FBSDKShareKit (8.0.0):
+    - FBSDKShareKit/Share (= 8.0.0)
+  - FBSDKShareKit/Share (8.0.0):
+    - FBSDKCoreKit (~> 8.0.0)
   - Flutter (1.0.0)
   - flutter_meta_sdk (1.0.0):
     - FBAudienceNetwork
@@ -13,15 +23,20 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
+  - FBSDKCoreKit (~> 8.0.0)
+  - FBSDKGamingServicesKit (~> 8.0.0)
+  - FBSDKLoginKit (~> 8.0.0)
+  - FBSDKShareKit (~> 8.0.0)
   - Flutter (from `Flutter`)
   - flutter_meta_sdk (from `.symlinks/plugins/flutter_meta_sdk/ios`)
 
 SPEC REPOS:
   trunk:
-    - FBAEMKit
     - FBAudienceNetwork
     - FBSDKCoreKit
-    - FBSDKCoreKit_Basics
+    - FBSDKGamingServicesKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
 
 EXTERNAL SOURCES:
   Flutter:
@@ -30,13 +45,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_meta_sdk/ios"
 
 SPEC CHECKSUMS:
-  FBAEMKit: 58cb5f302cdd715a56d4c1d0dfdd2e423ac1421a
   FBAudienceNetwork: d1670939884e3a2e0ad98dca98d7e0c841417228
-  FBSDKCoreKit: 94d7461d0cecf441b1ba7c41acfff41daa8ccd41
-  FBSDKCoreKit_Basics: 151b43db8b834d3f0e02f95d36a44ffd36265e45
+  FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
+  FBSDKGamingServicesKit: 17d39d1e8e2def31d9d1cea1cfee2c1c5df7038a
+  FBSDKLoginKit: 2cbaf5405379731b22f2ebc224f7c30f62378171
+  FBSDKShareKit: bf3705fc42b660c3da9f15223db791b3c9c2acde
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   flutter_meta_sdk: f678e258d0ecb44eebc07caa0fc2272eef931f45
 
-PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+PODFILE CHECKSUM: 9bc2b663cea6f54f792dfb3f3d065d7f2c2c3729
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
